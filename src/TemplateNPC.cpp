@@ -1505,24 +1505,24 @@ public:
 
     void OnStartup() override
     {
-        // Load templates for Template NPC #1
+        // Load templates for Template NPC #1 天赋模板
         LOG_INFO("module", "== TEMPLATE NPC ===========================================================================");
         LOG_INFO("module", "Loading Template Talents...");
         sTemplateNpcMgr->LoadTalentsContainer();
 
-        // Load templates for Template NPC #2
+        // Load templates for Template NPC #2 符文雕文模板
         LOG_INFO("module", "Loading Template Glyphs...");
         sTemplateNpcMgr->LoadGlyphsContainer();
 
-        // Load templates for Template NPC #3
+        // Load templates for Template NPC #3 人类装备
         LOG_INFO("module", "Loading Template Gear for Humans...");
         sTemplateNpcMgr->LoadHumanGearContainer();
 
-        // Load templates for Template NPC #4
+        // Load templates for Template NPC #4 联盟装备
         LOG_INFO("module", "Loading Template Gear for Alliances...");
         sTemplateNpcMgr->LoadAllianceGearContainer();
 
-        // Load templates for Template NPC #5
+        // Load templates for Template NPC #5 部落装备
         LOG_INFO("module", "Loading Template Gear for Hordes...");
         sTemplateNpcMgr->LoadHordeGearContainer();
         LOG_INFO("module", "== END TEMPLATE NPC ===========================================================================");
